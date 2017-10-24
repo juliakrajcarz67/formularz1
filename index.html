@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/krajcarz.julia@gmail.com" method="POST">
+
+        <label for="name">Imię</label>
+        <input type="text" id="name" name="Imię"><br>
+
+        <label for="sname">Nazwisko</label>
+        <input type="text" id="sname" name="Nazwisko"><br>
+
+        <label for="email">Email</label>
+        <input type="text" id=email name="Email"><br>
+
+        <label for="tel">Numer telefonu</label>
+        <input type="text" id="tel" name="Numer telefonu"><br>
+
+        <label for="selec">Wybór miasta</label>
+        <select name="select">
+            <option value="value1">Warszawa</option><br>
+            <option value="value1">Kraków</option><br>
+            <option value="value1">Gdańsk</option><br>
+        </select><br>
+
+        <label for="gender">Płeć:</label><br>
+
+        <label for="gender">Mężczyzna</label>
+        <input type="radio" name="gender" value="Mężczyzna"><br>
+
+        <label for="gender">Kobieta</label>
+        <input type="radio" name="gender" value="Kobieta"><br>
+
+        <label for="gender">Inne</label>
+        <input type="radio" name="gender" value="Inne"><br>
+
+        <label for="zgoda">Zgoda na dane</label><br>
+        <input type="checkbox" name="zgoda"><br>
+
+        <textarea placeholder="Wiadomość"></textarea><br>
+
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>
